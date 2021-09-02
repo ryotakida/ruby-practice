@@ -1,6 +1,6 @@
 class TodolistsController < ApplicationController
   def new
-      @list = List.new
+    @list = List.new
   end
     def create
     # １. データを新規登録するためのインスタンス作成
